@@ -1,0 +1,747 @@
+.p-color{
+     color: #4E4E4E;
+}
+.w-15{
+     width: 15%;
+}
+.w-40{
+     width: 40%;
+}
+.layer{
+     background-color: rgba(0, 120, 255,0.7);
+     height: 100%;
+}
+.p-5rem{
+     padding: 5rem;
+}
+.text-main{
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: 300;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #4E4E4E;
+}
+.h5-after{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 32px;
+     line-height: 38.4px;
+     font-weight: 500;
+     position: relative;
+     padding-bottom: 30px;
+}
+.h5-after::after{
+     content: "";
+     background-color: #0078FF;
+     width: 17%;
+     height: 3px;
+     position: absolute;
+     top: 45px;
+     left: 0px;
+}
+ul{
+     list-style: none;
+}
+                                        /* home */
+.home{
+     background-image: url(../images/hero-bg.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.home .overlay{
+     background-color: rgba(0, 0, 0,0.5);
+}
+.home h1{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 72px;
+}
+.home .typing::after{
+     content:"";
+     animation: typing 9s infinite;
+}
+@keyframes typing{
+     0% {
+          content: "|";
+     }
+     1% {
+          content: "D|";
+     }
+     2% {
+          content: "De|";
+     }
+     3% {
+          content: "Des|";
+     }
+     4% {
+          content: "Desi|";
+     }
+     5% {
+         content: "Desig|";
+     }
+     6% {
+          content: "Design|";
+     }
+     7% {
+          content: "Designe|";
+     }
+     8% {
+          content: "Designer|";
+     }
+     9% {
+          content: "Designer|";
+     }
+     10% {
+          content: "Designer";
+     }
+     11% {
+          content: "Designer";
+     }
+     12% {
+          content: "Designer";
+     }
+     13% {
+          content: "Designer|";
+     }
+     14% {
+          content: "Designer|";
+     }
+     15% {
+          content: "Designe|";
+     }
+     16% {
+          content: "Design|";
+     }
+     17% {
+          content: "Desig|";
+     }
+     18% {
+          content: "Desi|";
+     }
+     19% {
+         content: "Des|";
+     }
+     20% {
+          content: "De|";
+     }
+     21% {
+          content: "Dev|";
+     }
+     22% {
+          content: "Deve|";
+     }
+     23% {
+          content: "Devel|";
+     }
+     24% {
+          content: "Develo|";
+     }
+     25% {
+          content: "Develop|";
+     }
+     26% {
+          content: "Develope|";
+     }
+     27% {
+          content: "Developer|";
+     }
+     28% {
+          content: "Developer|";
+     }
+     29% {
+          content: "Developer";
+     }
+     30% {
+          content: "Developer";
+     }
+     31% {
+          content: "Developer";
+     }
+     32% {
+          content: "Developer|";
+     }
+     33% {
+          content: "Developer|";
+     }
+     34% {
+          content: "Develope|";
+     }
+     35% {
+          content: "Develop|";
+     }
+     36% {
+          content: "Develo|";
+     }
+     37% {
+          content: "Develo|";
+     }
+     38% {
+          content: "Devel|";
+     }
+     39% {
+          content: "Deve|";
+     }
+     40% {
+          content: "Dev|";
+     }
+     41% {
+          content: "De|";
+     }
+     42% {
+          content: "D|";
+     }
+     43% {
+          content: "|";
+     }
+     44% {
+          content: "F|";
+     }
+     45% {
+          content: "Fr|";
+     }
+     46% {
+          content: "Fre|";
+     }
+     47% {
+          content: "Free|";
+     }
+     48% {
+          content: "Freel|";
+     }
+     49% {
+          content: "Freela|";
+     }
+     50% {
+          content: "Freelan|";
+     }
+     51% {
+          content: "Freelanc|";
+     }
+     52% {
+          content: "Freelance|";
+     }
+     53% {
+          content: "Freelancer|";
+     }
+     54% {
+          content: "Freelancer|";
+     }
+     55% {
+          content: "Freelancer";
+     }
+     56% {
+          content: "Freelancer";
+     }
+     57% {
+          content: "Freelancer";
+     }
+     58% {
+          content: "Freelancer|";
+     }
+     59% {
+          content: "Freelancer|";
+     }
+     60% {
+          content: "Freelance|";
+     }
+     61% {
+          content: "Freelanc|";
+     }
+     62% {
+          content: "Freelan|";
+     }
+     63% {
+          content: "Freela|";
+     }
+     64% {
+          content: "Freel|";
+     }
+     65% {
+          content: "Free";
+     }
+     66% {
+          content: "Fre|";
+     }
+     67% {
+          content: "Fr|";
+     }
+     68% {
+          content: "F|";
+     }
+     69% {
+          content: "|";
+     }
+     70% {
+          content: "P|";
+     }
+     71% {
+          content: "Ph|";
+     }
+     72% {
+          content: "Pho|";
+     }
+     73% {
+          content: "Phot|";
+     }
+     74% {
+          content: "Photo|";
+     }
+     75% {
+          content: "Photog|";
+     }
+     76% {
+          content: "Photogr|";
+     }
+     77% {
+          content: "Photogra|";
+     }
+     78% {
+          content: "Photograp|";
+     }
+     79% {
+          content: "Photograph|";
+     }
+     80% {
+          content: "Photographe|";
+     }
+     81% {
+          content: "Photographer|";
+     }
+     82% {
+          content: "Photographer|";
+     }
+     83% {
+          content: "Photographer";
+     }
+     84% {
+          content: "Photographer";
+     }
+     85% {
+          content: "Photographer";
+     }
+     86% {
+          content: "Photographer|";
+     }
+     87% {
+          content: "Photographer|";
+     }
+     88% {
+          content: "Photographe|";
+     }
+     89% {
+          content: "Photograph|";
+     }
+     90% {
+          content: "Photograp|";
+     }
+     91% {
+          content: "Photogra|";
+     }
+     92% {
+          content: "Photogr|";
+     }
+     93% {
+          content: "Photog|";
+     }
+     94% {
+          content: "Photo|";
+     }
+     95% {
+          content: "Phot|";
+     }
+     96% {
+          content: "Pho|";
+     }
+     97% {
+          content: "Ph|";
+     }
+     98% {
+          content: "P|";
+     }
+     99% {
+          content: "|";
+     }
+     100% {
+          content: "|";
+     }
+     
+}
+                                        /* navbar */
+.navbar{
+     background-color: rgba(0, 0, 0,0.9) !important;
+}
+.navbar .container .navbar-brand{
+     letter-spacing: 1px;
+}
+.navbar .collapse .navbar-nav .nav-item{
+     padding-left: 13px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+     letter-spacing: 0.4px;
+     text-transform: uppercase;
+     font-size: 16px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 600;
+     color: white !important;
+     position: relative;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link::after{
+     content: "";
+     background-color: white;
+     width: 0%;
+     height: 2px;
+     position: absolute;
+     bottom: 1px;
+     left: 8px;
+     border: none !important;
+     transition: 0.4s;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover::after{
+     width: 75%;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover::after,
+.navbar .collapse .navbar-nav .nav-item .nav-link.active::after{
+     width: 50px;
+}
+.navbar .collapse .navbar-nav .nav-item .dropdown-toggle i{
+     font-size: 12px;
+     font-weight: 600;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-item{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 14px;
+     font-weight: 600;
+     --bs-dropdown-link-hover-bg: none;
+}
+.navbar .collapse .navbar-nav .main-li-dropdown .main-drop                                     {
+     border-radius: 0;
+     /* top: 70px; */
+     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0,0.1);
+     transition: 0.3s;
+}
+.navbar .collapse .navbar-nav .main-li-dropdown:hover .main-drop                                    {
+     display: block !important;
+     /* top: 40px; */
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-item i{
+     font-size: 12px !important;
+     font-weight: 600 !important;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-item:hover i{
+     transition: 0.3s;
+     color: #0078FF !important;
+} 
+.navbar .collapse .navbar-nav .second-li-dropdown .seconddrop{
+     transition: 0.2s;
+     display: none;
+     left: 156px;
+     top: 15px;
+     border: none;
+     border-radius: 0;
+     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0,0.1);
+     --bs-dropdown-link-hover-bg: none;
+     margin-left: 10px;
+}
+.navbar .collapse .navbar-nav .second-li-dropdown:hover .seconddrop{
+     display: block;
+}
+.navbar .dropdown-item{
+     color: rgb(50, 50, 50);
+     transition: 0.3s;
+     padding: 10px;
+}
+.navbar .dropdown-item:hover{
+     color: #0078FF;
+}
+.navbar .container .navbar-toggler:focus{
+      box-shadow: none !important;
+}
+                                        /* about */
+.about{
+     background-color: #F5F5F5;
+}
+.about .information{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 17.6px;
+     line-height: 24px;
+}
+.about .information span{
+     font-weight: 600;
+}
+.about .skill{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 17.6px;
+     font-weight: 600;
+}
+.about .image{
+     width: 100%;
+     height: 100%;
+}
+.about .progress{
+     height: 10px;
+     background-color: #CDE1F8;
+}
+.about .bg-white{
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+                                        /* services */
+.services{
+     background-color: #F5F5F5;
+}
+.services .h-page h3{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 48px;
+     line-height: 57.6px;
+     font-weight: 700;
+     padding-top: 70px;
+}
+.services .h-page{
+     position: relative;
+}
+.services .h-page::after{
+     content: "";
+     background-color: #0078FF;
+     width: 40px;
+     height: 5px;
+     position: absolute;
+     bottom: 45px;
+     left: 48%;
+}
+.services .bg-white{
+     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.services i{
+     font-size: 40px;
+     border: #0078FF solid 9px;
+     border-radius: 50% 50%;
+     transition: 0.5s;
+}
+.services .bg-white:hover i{
+     border-color: #CDE1F8;
+     background-color: #0078FF;
+     color: white;
+}
+.services .bg-white h2{
+     font-size: 22.4px;
+     line-height: 26px;
+     font-weight: 500;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.services .bg-white p{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     line-height: 24px;
+     font-weight: 400;
+     font-size: 16px;
+}
+                                        /* counter */
+.counter{
+     background-image: url(../images/counters-bg.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.counter .layer{
+     padding: 120px 10px;
+
+}
+.counter i{
+     font-size: 25px;
+     border: #CDE1F8 solid 9px;
+     border-radius: 50% 50%;
+}
+.counter p{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 32px;
+     line-height: 48px;
+     font-weight: 400;
+}
+                                        /* work */
+.work{
+     background-color: #F5F5F5;
+}
+.work .h-page h3{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 48px;
+     line-height: 57.6px;
+     font-weight: 700;
+}
+.work .h-page{
+     position: relative;
+}
+.work .h-page::after{
+     content: "";
+     background-color: #0078FF;
+     width: 40px;
+     height: 5px;
+     position: absolute;
+     bottom: 45px;
+     left: 48%;
+}
+.work .work-card img{
+     transition: 1s;
+}
+.work .card5{
+     height: 98px;
+    padding: 10px;
+}
+.work-card:hover img{
+     cursor: pointer;
+     transform: scale(1.3)
+}
+.work-cap h2{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19.2px;
+     line-height: 23px;
+     font-weight: 500;
+}
+.work-cap p{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12.8px;
+     font-weight: 400;
+     color: rgba(0,0,0,0.7);
+     display: flex;
+}
+.work-cap p span{
+     color:#0078FF;
+}
+.work-card i{
+     font-size: 25px;
+     border: #0078FF solid 3px;
+     border-radius: 50% 50%;
+     color: #0078FF;
+     width: 35px;
+     height: 35px;
+}
+.work-card i:hover{
+     cursor: pointer;
+}
+.work-card .bg-white{
+     box-shadow: 0 15px 8px -10px rgba(0, 0, 0, 0.1);
+}
+                                        /* carousel */
+.carousel{
+     background-image: url(../images/overlay-bg.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 80vh;
+}
+.carousel-indicators [data-bs-target]{
+     height: 12px;
+     width: 12px;
+     border-radius: 50% 50%;
+}
+.carousel .carousel-inner .carousel-indicators{
+     padding: 3rem !important;
+}
+.carousel-item span{
+     font-size: 22.4px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 600;
+}
+.carousel-item p{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+}
+                                        /* blog */
+.blog{
+     background-color: #F5F5F5;
+}
+.blog .h-page h3{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 48px;
+     line-height: 57.6px;
+     font-weight: 700;
+}
+.blog-card{
+     box-shadow: 0 12px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.blog .c-border{
+     border: #D2D2D2 1px solid;
+}
+.blog .blog-cap h3{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 20.8px;
+     font-weight: 500;
+     transition: 0.6s;
+     color: black !important;
+     position: relative;
+}
+.blog .blog-cap h3:hover{
+     cursor: pointer;
+     color: #0078FF !important;
+}
+.blog .w-50{
+     transition: 0.6s;
+}
+.blog .w-50:hover{
+     cursor: pointer;
+     color: #0078FF;
+}
+.blog .blog-card .after::after{
+     content: 'TRAVEL';
+     bottom: -14px;
+     width: 66px;
+     padding: 0px 14px;
+     height: 30px;
+     font-family: system-ui;
+     color: white;
+     font-size: 11.2px;
+     font-weight: 500;
+     border-radius: 4px;
+     background-color: #0078FF;
+     position: absolute;
+     display: flex;
+     align-items: center;
+}
+.blog .blog-card .webdesign::after{
+     content: 'WEB DESIGN';
+     width: 95px;
+}
+.contact{
+     background-image: url(../images/overlay-bg.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.contact .container{
+     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.contact form .item{
+     border: 1px #DEE2E6 solid;
+     transition: 0.2s;
+     outline: none;
+}
+.contact form .item:focus{
+     border: 1px #0078FF solid;
+     box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+.contact button{
+     background-color: #0078FF;
+     border: 5px white solid;
+     transition: 0.5s;
+}
+.contact button:hover{
+     border-color: #CEDEF5;
+     background-color: #3393FF;
+}
+.contact .col-md-6 .contact-get i{
+     color: #0078FF;
+}
+.contact .col-md-6 .icons{
+     width: 220px;
+}
+.contact .col-md-6 .icons i{
+     padding: 10px;
+     border: 3.5px solid #0078FF;
+     transition: 0.5s;
+}
+.contact .col-md-6 .icons i:hover{
+     border-color: #CDE1F8;
+     background-color: #0078FF !important;
+     color: white !important;
+}
+                                        /* footer */
+footer{
+     background-color: #0062D3;
+}
